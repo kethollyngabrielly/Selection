@@ -1,0 +1,98 @@
+html, body {
+  background-color: black;
+    color: white;
+    font-family: "Edu Australia VIC WA NT Guides", cursive;
+    margin: 2px;
+  margin-bottom: 30px;
+}
+
+.inicio{
+  background: rgb(134,86,134);
+  font-size: 35px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px white;
+}
+
+header{
+  font-family: "Sixtyfour Convergence", serif;
+  color: pink;
+  display: flex;
+  border-bottom: solid 1px white;
+  position: relative;
+  margin: 20px;
+  
+}
+
+p{
+  text-align: justify;
+}
+
+.inicio{
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+  position: relative;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+.alinha{
+  align-content: center;
+}
+  
+.clipes{
+  display: flex;
+  overflow-x:auto;
+  gap: 10px;
+  }
+  
+.img{
+    height: 200px;
+  }
+  
+.outros{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: rgb(134,86,134);
+    font-weight: 700;
+  }
+  
+  h3{
+    border-bottom: 2px solid white;
+  }
+  
+.outros img:houver{
+    opacity: 1.0;
+    border: 3px solid pink;
+    box-shadow: 2px 5px 5px grey;
+  }
+  
+  header img{
+    position: relative;
+    z-index: -1;
+    margin-left: 400px;
+  }
+  
+  footer{
+    font-family: "Edu Australia VIC WA NT Guides", cursive;
+    color: pink;
+    background-color: rgba(255,192,255,0.562);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 200px;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    padding-left: 450px;
+  }
